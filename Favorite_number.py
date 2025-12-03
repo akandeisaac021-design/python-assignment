@@ -5,7 +5,7 @@ if (number=7):
 else print("Nice try guess again!")
 
 new_number =int(input("Try to guess again: "))
-if (number=7):
+if (number==7):
     :print("That's my favorite number")
-else:
+elif(number!=7):
     :print("Nice try guess again!")
