@@ -1,5 +1,5 @@
 number =int(input('Enter any number: '))
 if ("number%2 ==0"):
-    :print("EVEN")
+    print("EVEN")
 elif (number%2!=0):
-    :print("ODD")
+    print("ODD")
