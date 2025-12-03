@@ -1,4 +1,4 @@
-age =int(input("Enter your age: ")
+age =int(input("Enter your age: "))
 if (age<5):
     :print('Free')
 elif (age>5 and age<=12)

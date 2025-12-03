@@ -1,5 +1,5 @@
-weight =int(input("Enter your weight: ")
-height =int(input("Enter your height: ")
+weight =int(input("Enter your weight: "))
+height =int(input("Enter your height: "))
 height_sqr =height * height
 bmi =weight/height_sqr
 if (bmi<18.5):

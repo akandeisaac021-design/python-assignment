@@ -1,6 +1,6 @@
-score1 =int(input("Enter First score: ")
-score2 =int(input("Enter Second score: ")
-score3 =int(input("Enter Third score: ")
+score1 =int(input("Enter First score: "))
+score2 =int(input("Enter Second score: "))
+score3 =int(input("Enter Third score: "))
 total =score1 + score2 + score3
 avg =total/3
 print("Grade")
