@@ -145,10 +145,21 @@ def sum_of_every_third_index(numbers):
 
 
 
+def sum_of_first_last_and_middle(numbers):
+    first_number =numbers[0]
+    last_number =numbers[-1]
+    middle_index =0
 
 
-
-
+    if (len(numbers) %2 ==1):
+        middle_index =len(numbers) //2
+    else:
+        first_middle_index =len(numbers) //2
+        second_middle_index =(len(numbers) //2) + 1
+#        true_middle_index
+        middle_index =(first_middle_index + second_middle_index) /2
+    
+    return first_number + middle_index + last_number
 
 
 
