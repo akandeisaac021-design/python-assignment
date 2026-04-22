@@ -11,7 +11,8 @@ def create_dictionary_of_courses():
         "SOCIOLOGY", "POLITICAL SCIENCE", "GEOGRAPHY", "PSYCHOLOGY", "ART",
         "MUSIC", "ENGINEERING", "LAW", "MEDICINE", "BUSINESS"
     }
-
+    
+    return department_courses
 
 def create_student(username, name, age, courses, city, zip_code):
 
@@ -22,6 +23,7 @@ def create_student(username, name, age, courses, city, zip_code):
         "address": {"city": city, "zip": zip_code}
     }
 
+    return students
 
 def display_student(username):
     return students.get(username, "Student not found")
