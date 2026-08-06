@@ -3,10 +3,10 @@ from typing import List, Optional
 
 from fastapi import FastAPI, HTTPException
 
-from gatepass_system.CreateGatePass import CreateGatePass
-from gatepass_system.GatePass import GatePass
-from gatepass_system.enums.PassStatus import PassStatus
-from gatepass_system.store import store
+from gatepass_system.service.CreateGatePass import CreateGatePass
+from gatepass_system.model.GatePass import GatePass
+from gatepass_system.enum.PassStatus import PassStatus
+from gatepass_system.model.store import store
 
 app = FastAPI(title="Gate Pass System")
 
